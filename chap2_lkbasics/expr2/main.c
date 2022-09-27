@@ -13,8 +13,6 @@ struct data *data_new(int val){
 		return NULL;
 
 	data->val = val;
-	INIT_LIST_HEAD(&data->list);
-
 	return data;
 }
 
